@@ -1,9 +1,9 @@
 
 float[] x;
-float[] y = 
+float[] y;
 
 
-void setup() {
+void setup1() {
   size(640, 360);
   background(100);
     stroke(255);
@@ -64,3 +64,4 @@ void drawCircle(int cx, int cy,int radius, float var) {
     bezierVertex(240, 50, 280, 50, 320, 100);
     bezierVertex(320, 100, 280, 100, 240, 50);
   endShape();
+}
