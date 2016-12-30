@@ -1,7 +1,7 @@
 boolean debug = false;
 
 void setup() {
-  size(640, 640);
+  size(1000, 1000, P2D);
   background(100);
   stroke(255);
   fill(100);
@@ -9,6 +9,8 @@ void setup() {
   printEyes(250, 250, 50, 20, 8.0, 15.0);
   printEyes(450, 250, 50, 20, 4.0, 25.0);
   if (debug) testRotate();
+  bezierDraw();
+  
 }
    
   void testRotate() {
